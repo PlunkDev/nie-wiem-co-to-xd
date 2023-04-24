@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coś innego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="klan non omnis moriar">
+    </div>
+    <div class="nawigacja">
+        <ul>
+            <li><a href="index.html">Strona Główna</a></li>
+            <li><a href="register.html">Dołącz do nas</a></li>
+            <li><a href="http://bit.ly/streamy-csgo">Streamy z CS:GO</a></li>
+        </ul>
+        <p>Uwaga! Trwa rekrutacja! Wymagana ranga: silver.</p>
+    </div>
+    <div class="content">
+        <form action="new.php" method="POST">
+            <input type="text" name="nick" id="nick" placeholder="Istniejący nick z CS"></br>
+            <input type="password" name="pass" id="pass" placeholder="Hasło"></br>
+            <input type="password" name="passRe" id="passRe" placeholder="Powtórz hasło"></br>
+            <input type="number" min="1900" max="2050" step="1" value="2000" /></br>
+            <input type="radio" name="plec" id="plec" value="Mężczyzna" checked>
+            <label for="Mężczyzna">Mężczyzna</label>
+            <input type="radio" name="plec" id="plec" value="Kobieta">
+            <label for="Kobieta">Kobieta</label></br>
+            <input type="checkbox" name="regulamin" id="regulamin" checked>
+            <label for="regulamin">Akceptuję regulamin serwisu</label><br>
+            <input type="checkbox" name="newsletter" id="newsletter" checked>
+            <label for="newsletter">Wyrażam zgodę na otrzymywanie newslettera</label><br>
+            <label for="bron">Ulubiona broń: </label>
+            <select id="bron" name="bron">
+                <option value="Five-seveN">Five-seveN</option>
+                <option value="Desert Eagle">Desert Eagle</option>
+                <option value="PP-Bizon">PP-Bizon</option>
+                <option value="AWP">AWP</option>
+                <option value="MP9">MP9</option>
+                <option value="AK-47">AK-47</option>
+            </select></br>
+            <label for="mapa">Ulubiona mapa: </label></br>
+            <select id="mapa" name="mapa" multiple size="6">
+                <option value="Dust">Dust II</option>
+                <option value="Mirage">Mirage</option>
+                <option value="Cache">Cache</option>
+                <option value="Inferno">Inferno</option>
+                <option value="Nuke">Nuke</option>
+                <option value="Train">Train</option>
+            </select></br>
+            <label for="sobie">Kilka słów o sobie <small>Opisz swoją przygodę z CS:GO, dlaczego wybrałeś akurat nasz klan?</small></label></br>
+            <textarea name="sobie" id="sobie" cols="30" rows="10"></textarea></br>
+            <input type="submit" value="Zarejestruj się!">
+        </form>
+    </div>
+    <div class="tabela">
+        Aktualni gracze Non Omnis Moriar
+        <table>
+            <thead>
+                <th>Nick</th>
+                <th>Płeć</th>
+                <th>Ulubona Broń</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="szef">Sn1p3RR</span></td>
+                    <td><span class="szef">m</span></td>
+                    <td><span class="szef">AWP</span></td>
+                </tr>
+                <tr>
+                    <td><span class="sekretarz">Gh0st256</span></td>
+                    <td><span class="sekretarz">k</span></td>
+                    <td><span class="sekretarz">PP-Bizon</span></td>
+                </tr>
+                <tr>
+                    <td>K4w411</td>
+                    <td>k</td>
+                    <td>MP9</td>
+                </tr>
+                <tr>
+                    <td>S0l1d$nake</td>
+                    <td>m</td>
+                    <td>Desert Eagle</td>
+                </tr>
+            </tbody>
+        </table>
+        <small>Legenda: <span class="szef">szef klanu</span>, <span class="sekretarz">sekretarz drużyny</span></small>
+    </div>
+<div class="stopka">
+        <blockquote cite="https://pl.wikiquote.org/wiki/Douglas_MacArthur">
+            <p>Na wojnie się wygrywa albo przegrywa, żyje albo umiera - a decyduje się to w mgnieniu oka</p>
+            <footer>
+               - <a href="https://pl.wikiquote.org/wiki/Douglas_MacArthur">
+               Douglas MacArhur</a>
+             </footer>
+         </blockquote> 
+        </div>
+</body>
+</html>

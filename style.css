@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+div{
+    float: left;
+}
+
+img{
+    width: 10%;
+}
+
+a{
+    color: black;
+}
+
+table, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.szef{
+    color: red;
+}
+
+.sekretarz{
+    color: green;
+}
+
+.logo{
+    width: 100%;
+    background-color: aquamarine;
+
+}
+
+.nawigacja{
+    width: 20%;
+    background-color: blueviolet;
+}
+
+.content{
+    width: 50%;
+    background-color: yellowgreen;
+}
+
+.tabela{
+    width: 30%;
+    background-color: yellow;
+}
+
+.stopka{
+    width: 100%;
+    background-color: violet;
+}
